@@ -1,5 +1,5 @@
 use sdl2::event::Event;
-use lib::game::Game;
+use sdl2_game3d_sample::game::Game;
 
 fn main() {
     let sdl2_context = sdl2::init().unwrap();
